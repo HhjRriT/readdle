@@ -1,0 +1,135 @@
+.wrapper {
+    font-family: 'Open Sans', sans-serif;
+    background: #111111;
+    max-width: 1024px;
+    max-height: 1782px;
+    margin: 0 auto;
+    position: relative;
+    /*font-family: 'Zen Dots', cursive;*/
+}
+
+header {
+    right: 0;
+    bottom: 0;
+    background: #FFFFFF;
+    opacity: 0.95;
+    position: absolute;
+    width: 1024px;
+    height: 60px;
+    left: 0;
+    top: 0;
+}
+
+ .plancy {
+     display: flex;
+     position: absolute;
+     width: 87px;
+     height: 28px;
+     left: 100px;
+     top: 14px;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 22px;
+ }
+
+ .buttons {
+     position: absolute;
+     left: 50.98%;
+     right: 45.7%;
+     top: 38.33%;
+     bottom: 35%;
+     font-size: 12px;
+     width: 50%;
+     display: flex;
+     justify-content: space-around;
+     align-items:center;
+ }
+
+.download {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 30px;
+    background: #926CFF;
+    width: 121px;
+    color: #FFFFFF;
+}
+
+main {
+    max-width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    padding-left: 100px;
+}
+
+.back {
+    position: relative;
+    left: -20%;
+    top: 40px;
+    z-index: 0;
+    max-width: 50%;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 50%;
+    display: flex;
+    flex-direction:column
+}
+
+.title {
+    font-family: Zen Dots;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 65px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+}
+
+.text {
+    max-width: 400px;
+    margin-top: 26px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+span {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #BB61F2, #926CFF);
+}
+
+form {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+input {
+    caret-color: #926CFF;
+    color: #926CFF;
+    font-size: 14px;
+    width: 261px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(100%, 100%, 100%, 0.6);
+    background: inherit;
+}
+
+.contact {
+    border: none;
+    border-radius: 0;
+    background: #926CFF;
+    width: 122px;
+    height: 34px;
+    color: #FFFFFF;
+}
