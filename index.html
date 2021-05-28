@@ -3,50 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <title>Planner</title>
-    <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
+    <link rel="stylesheet" href="zero.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width">
 </head>
 <body>
 <div class="wrapper">
-    <header>
+    <div class="popUp">
+        <div class="popUpBlock">
+            <div class="close"><img class="close" src="./img/Vector.svg" alt=""></div>
+            <div class="logoDone"><img src="./img/Group%2017.svg" alt=""></div>
+            <div class="thank">Thank you!</div>
+            <div class="backSoon">We’ve received your request and will get back to you soon.</div>
+        </div>
+    </div>
+    <div class="burgerBody">
+        <div class="burgerMenu">About</div>
+        <div class="burgerMenu">Pricing</div>
+        <div class="burgerMenu">Contact</div>
+        <div class="burgerMenu">Blog</div>
+    </div>
+    <div class="staticMenu">
         <div class="menu">
+            <div class="burgerWrapper">
+                <div class="burger"><span> </span></div>
+            </div>
             <div class="plancy">
                 <div><img src="./img/Group%203.png" alt="Group3"></div>
                 <div style="margin-left: 10px">Plancy</div>
             </div>
             <div class="buttons">
-                <div>About</div>
-                <div>Pricing</div>
-                <div>Contact</div>
-                <div>Blog</div>
+                <div class="menuButtons">About</div>
+                <div class="menuButtons">Pricing</div>
+                <div class="menuButtons">Blog</div>
                 <div class="download">Free download</div>
             </div>
         </div>
-    </header>
-    <main>
-        <div class="container">
-            <div class="title">
-                The most beautiful <span>planner</span> app
+    </div>
+    <div class="origMenu">
+        <div class="menu">
+            <div class="burgerWrapper">
+                <div class="burger"><span> </span></div>
             </div>
-            <div class="text">Plancy does a great job planning your day, week, and month. User experience was crafted to
-                give you the most from using it on both iPhone and iPad.
+            <div class="plancy">
+                <div><img src="./img/Group%203.png" alt="Group3"></div>
+                <div style="margin-left: 10px">Plancy</div>
             </div>
-            <form >
-                <input type="email" placeholder="Leave your email">
-                <button class="contact" type="submit">Contact us</button>
-            </form>
+            <div class="buttons">
+                <div class="menuButtons">About</div>
+                <div class="menuButtons">Pricing</div>
+                <div class="menuButtons">Contact</div>
+                <div class="menuButtons">Blog</div>
+                <div class="download">Free download</div>
+            </div>
         </div>
-        <div class="back">
-            <img src="./img/Frame%204.png">
+    </div>
+
+    <main>
+        <div class="titleApp">
+            <div class="container">
+                <div class="title">
+                    The most beautiful <span class="gradient"> planner</span> app
+                </div>
+                <div class="text">Plancy does a great job planning your day, week, and month. User experience was
+                    crafted to
+                    give you the most from using it on both iPhone and iPad.
+                </div>
+                <form>
+                    <input type="email" placeholder="Leave your email">
+                    <button class="contact" type="submit">Contact us</button>
+                </form>
+            </div>
+            <div class="back">
+                <img src="./img/Frame%204.png" alt="box">
+            </div>
+        </div>
+        <div class="text2">
+            Over 12 million people rely on <span class="purple">Plancy</span> app
         </div>
 
+        <div class="textBlocks">
+
+            <div class="about are1">We have a powerful iPhone calendar app on our hands here – meetings, locations,
+                notes,
+                tasks…everything under one roof.
+            </div>
+            <div class="about are2">When it comes to combining both tasks lists and calendar events into one, the
+                Plancy
+                app
+                currently does it best.
+            </div>
+
+            <div class="about are3">Plancy gets close to being my ideal iPhone calendar app for the current state of
+                calendar and reminders clients.
+            </div>
+
+            <div class="spiral">
+                <img src="./img/Frame%205.png" alt="spiral">
+            </div>
+
+        </div>
+        <div class="text3">Features you'll <span class="purple">love</span></div>
+
+        <div class="srollBar">
+            <div class="image-slider swiper-container">
+                <div class="image-slider__wrapper swiper-wrapper">
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-color.svg" alt="color">
+                            <p>Color code events
+                                <br> and calendars</p></div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-invite.svg" alt="icon-invite">
+                            <p>Invite people to
+                                <br>your events</p></div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-video.svg" alt="color">
+                            <p>Video calls
+                                <br>integration</p></div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-location.svg" alt="color">
+                            <p>Use Apple Maps
+                                <br>or Google Maps</p></div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-hide.svg" alt="color">
+                            <p>Hide calendars
+                                <br>you don't need</p></div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-share.svg" alt="color">
+                            <p> Share calendars
+                                <br>with others</p></div>
+                    </div>
+                    ...
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="image-slider2 swiper-container">
+                <div class="image-slider__wrapper swiper-wrapper">
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-color.svg" alt="color">
+                            <p>Color code events
+                                <br> and calendars</p></div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-invite.svg" alt="icon-invite">
+                            <p>Invite people to
+                                <br>your events</p></div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-video.svg" alt="color">
+                            <p>Video calls
+                                <br>integration</p></div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-location.svg" alt="color">
+                            <p>Use Apple Maps
+                                <br>or Google Maps</p></div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-hide.svg" alt="color">
+                            <p>Hide calendars
+                                <br>you don't need</p></div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-share.svg" alt="color">
+                            <p> Share calendars
+                                <br>with others</p></div>
+                    </div>
+                    ...
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="image-slider3 swiper-container">
+                <div class="image-slider__wrapper swiper-wrapper">
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-color.svg" alt="color">
+                            <p>Color code events
+                                <br> and calendars</p></div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-invite.svg" alt="icon-invite">
+                            <p>Invite people to
+                                <br>your events</p></div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-video.svg" alt="color">
+                            <p>Video calls
+                                <br>integration</p></div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-location.svg" alt="color">
+                            <p>Use Apple Maps
+                                <br>or Google Maps</p></div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-hide.svg" alt="color">
+                            <p>Hide calendars
+                                <br>you don't need</p></div>
+                    </div>
+                    <div class="image-slider__slide swiper-slide">
+                        <div class="imgText"><img class="slideImage" src="./img/icon-share.svg" alt="color">
+                            <p> Share calendars
+                                <br>with others</p></div>
+                    </div>
+                    ...
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
     </main>
 
-
 </div>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>
