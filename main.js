@@ -61,7 +61,7 @@ inPut.addEventListener("input", (event) => {
 
 contact.addEventListener("click" , (event) => {
     event.preventDefault()
-    if (checkEmail(contactInput)) console.log("good")
+    if (checkEmail(contactInput)) window.open(`mailto:${contactInput}`)
     popUp.style.display = "flex"
     inPut.value = ""
 })
